@@ -1,6 +1,6 @@
 # Panduan Instalasi Web Undangan Nikah
 
-Panduan ini akan membantu Anda dalam langkah-langkah instalasi Web Undangan Nikah
+Repository ini adalah project iseng saya dalam membuat Web Undangan Nikah yang dilengkapi dengan link generator untuk mempermudah pengiriman undangan. Fitur tersebut akan menggunakan Google Spreadsheet API sebagai pengganti database, termasuk untuk menyimpan ucapan dan do'a yang ada di web. Berikut ini adalah panduan yang akan membantu Anda dalam langkah-langkah instalasi Web Undangan Nikah
 
 ## Prasyarat
 
@@ -10,6 +10,10 @@ Sebelum memulai, pastikan Anda telah menginstal hal-hal berikut di komputer Anda
 -   Composer
 -   Git
 -   Server web (contoh: Apache, Nginx)
+
+Pastikan juga Anda membuat 1 Google Spreadsheet dengan 2 Sheet, yang terdiri dari:
+1. Sheet "KOMENTAR" dengan kolom: id, nama, pesan, kehadiran, waktu
+2. Sheet "SENDER" dengan kolom: nama, alamat, whatsapp
 
 ## Langkah 1: Clone Repositori
 

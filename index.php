@@ -2439,7 +2439,7 @@ require_once 'config.php';
 
 
 															<div class="wdp-dear" style="width: auto !important;">Bapak/Ibu/Saudara/i</div>
-															<div class="wdp-name namatamu" style="width: auto !important;"><?= (isset($_GET['untuk']) ? $_GET['untuk'] : 'Tamu Undangan'); ?></div>
+															<div class="wdp-name namatamu" style="width: auto !important;"><?= (isset($_GET['untuk']) ? strip_tags($_GET['untuk']) : 'Tamu Undangan'); ?></div>
 															<div class="wdp-text" style="width: auto !important;">Tanpa mengurangi rasa hormat, Kami bermaksud mengundang Anda untuk menghadiri acara pernikahan Kami.</div>
 
 															<div class="wdp-button-wrapper" id="wdp-button-wrapper">
