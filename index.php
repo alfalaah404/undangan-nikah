@@ -2679,7 +2679,7 @@ require_once 'config.php';
 			"ajaxurl": "https:\/\/eninvitation.com\/wp-admin\/admin-ajax.php",
 			"nonce": "3d03eaf6f1",
 			"urls": {
-				"assets": "https:\/\/eninvitation.com\/wp-content\/plugins\/elementor-pro\/assets\/",
+				"assets": '<?= $base_url; ?>wp-content/plugins/elementor-pro/assets/',
 				"rest": "https:\/\/eninvitation.com\/wp-json\/"
 			},
 			"shareButtonsNetworks": {
